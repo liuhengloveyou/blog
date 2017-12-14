@@ -25,12 +25,40 @@ https://www.sixianed.com/2017/10/24/hexo-node-sass问题解决/
 
 ```yaml
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://www.sixianed.com
 root: /
 permalink: :year/:month/:day/:id.html
 permalink_defaults: en
 ```
 
+可是，id是会随着文章内容变化。 所以这样看起来不错， 其实没法用。
 
-PS: 其实这也不是最好的办法。。。本BLOG最终也没用这个配置。
+
+
+我的做法是自己设置一个专门的字段用作url显示， 比如时间戳。配置如下：
+
+```yaml
+# URL
+url: https://www.sixianed.com
+root: /
+permalink: :time.html
+permalink_defaults: 
+  lang: en
+```
+
+然后在文章的[Front-matter](https://hexo.io/zh-cn/docs/front-matter.html)里写上**time**字段：
+
+```
+---
+title: hexo url中文问题
+comments: true
+date: 2017-10-24 18:01:22
+time: 1507866358
+tags:
+	- seo
+	- hexo
+categories: hexo
+---
+```
+
+就是你现在看到的效果了。

@@ -1,5 +1,5 @@
 ---
-title: shell SS命令
+title: Linux shell 命令 SS
 comments: true
 date: 2017-11-14 18:16:22
 time: 1510654582

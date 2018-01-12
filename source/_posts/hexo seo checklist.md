@@ -1,25 +1,21 @@
 ---
-title: hexo SEO 一步步来
+title: hexo SEO chicklist
 comments: true
 date: 2017-11-14 09:48:29
 time: 1510624109
-tags: 
-	- SEO
-	- hexo
+tags: hexo
 categories: SEO
 ---
 
-## 首页title优化
+- 首页title优化
 
+- url规则
 
+- sitemap
 
-## url规则
+- title
 
-## sitemap
+- 外部链接
 
-## title
-
-## 外部链接
-
-## 数据监测
+- 数据监测
 

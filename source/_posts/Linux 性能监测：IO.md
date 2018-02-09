@@ -5,7 +5,7 @@ time: 1507866363
 tags:
 - linux
 - IO
-categories: Linux性能调优
+categories: 性能调优
 comments: true
 ---
 

@@ -5,7 +5,7 @@ time: 1507866365
 tags:
   - linux
   - network
-categories: Linux性能调优
+categories: 性能调优
 comments: true
 ---
 
@@ -46,7 +46,8 @@ Settings for eth0:
 ```
 
 ## iptraf
-> iptraf是一个基于ncurses的IP局域网监控器，用来生成包括TCP信息、UDP计数、ICMP和OSPF信息、以太网负载信息、节点状态信息、IP校验和错误等等统计数据。
+
+iptraf是一个基于ncurses的IP局域网监控器，用来生成包括TCP信息、UDP计数、ICMP和OSPF信息、以太网负载信息、节点状态信息、IP校验和错误等等统计数据。
 
 | 参数          | 作用                                       |
 | :---------- | :--------------------------------------- |
@@ -188,8 +189,3 @@ date                segs    bytes  rexsegs rexbytes      new   active
 17:00:50.244708       39     5688        0        0        0        1
 17:01:05.244708       67     8828        0        0        2        3
 17:01:11.081080       37     4121        0        0        1        3
-Linux 性能监测：介绍
-Linux 性能监测：CPU
-Linux 性能监测：Memory
-Linux 性能监测：IO
-Linux 性能监测：工具

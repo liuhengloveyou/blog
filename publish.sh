@@ -2,12 +2,12 @@
 
 hexo g
 
-tar cvf a.tar public
+tar cvjf a.tar public
 
-scp -i ~/.ssh/id_rsa a.tar root@119.23.252.180:/opt/nginx/html/
+scp -i ~/.ssh/key0.pem a.tar root@47.91.238.107:/opt/nginx/html/
 
-ssh  -i ~/.ssh/id_rsa root@119.23.252.180 "cd /opt/nginx/html/; rm -rf public; tar xvf a.tar; rm a.tar"
+ssh -i ~/.ssh/key0.pem root@47.91.238.107 "cd /opt/nginx/html/; tar xvjf a.tar;rm -rf a.tar sixianed.com;mv public sixianed.com;"
 
-rm a.tar;
+rm a.tar
 
 exit

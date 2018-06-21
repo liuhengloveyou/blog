@@ -17,10 +17,12 @@ comments: true
 
 ## 安装MySQL
 
-互联网行业服务器用CentOS的比较多， 我们也同样。MySQL官方有提供YUM源，这肯定是最方便的安装方式了。下面我演示CentOS 6的安装方式， CentOS 7也是一样的：
+互联网行业服务器用CentOS的比较多， 我们也同样。MySQL官方有提供YUM源，这肯定是最方便的安装方式了：
 
 
 1. 下载开源版的MySQL Yum Repository：
+
+   列表可以在这个网址找到`https://dev.mysql.com/downloads/repo/yum/`,例如：
 ```shell
 # wget https://dev.mysql.com/get/mysql57-community-release-el6-11.noarch.rpm
 ```
@@ -317,7 +319,7 @@ phpinfo();
 
 ```shell
 # cd html/wordpress/
-# wget https://cn.wordpress.org/wordpress-4.8.1-zh_CN.zip
+# wget https://cn.wordpress.org/wordpress-4.9.4-zh_CN.zip
 ```
 
 2. 解压放到 /opt/nginx/html/wordpress 目录下：
@@ -356,7 +358,7 @@ Query OK, 0 rows affected (0.00 sec)
 
 mysql> exit
 Bye
-#
+# GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY "123456" WITH GRANT OPTION;
 ```
 
 4. 运行安装脚本

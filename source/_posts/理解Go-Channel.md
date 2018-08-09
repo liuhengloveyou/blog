@@ -4,7 +4,7 @@ comments: true
 date: 2018-06-14 08:14:30
 time: 1528935270
 tags:
-categories: golfing
+categories: golang
 ---
 
 

@@ -4,7 +4,7 @@ comments: true
 date: 2018-06-21 22:10:00
 time: 1529590200
 tags:
-categories:
+categories: 其它
 ---
 
 ## 1. 阿里云控制台生成密钥对并绑定服务器
